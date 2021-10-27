@@ -67,6 +67,7 @@ public class MyTests {
 
     // Homework Methods
 
+
     @Test
     public void testIsNegative() {
         assertEquals(false, new Rational(1,2).isNegative(), "The output of checking if the Rational 1/2 is negative should be: false");
